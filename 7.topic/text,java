@@ -1,0 +1,19 @@
+class text{
+    static void shown(){
+        System.out.println("Static method ");
+    }
+    void dynamicshow(){
+        System.out.println("dynamic");
+    }
+
+    public static void main(String[] args){
+        text t = new text();
+        t.shown();
+        t.dynamicshow();
+    }
+}
+
+// Static vs Dynamic Binding
+
+// Question:
+// Demonstrate static and dynamic binding.
