@@ -1,0 +1,36 @@
+interface A {
+    void show();
+     public static void main(String []args){
+        Test t = new Test();
+        t.show();
+        t.display();
+    }
+}
+interface B {
+    void display();
+ public static void main(String []args){
+        Test t = new Test();
+        t.show();
+        t.display();
+    }
+}
+
+class Test implements A ,B{
+    public void show(){
+        System.out.println("show method ");
+
+    }
+
+    public void display(){
+        System.out.println("display method");
+
+
+    }
+    public static void main(String []args){
+        Test t = new Test();
+        t.show();
+        t.display();
+    }
+}
+
+// 3️⃣ Multiple Inheritance using Interface
